@@ -3,7 +3,7 @@ import { Button } from './components/Button'
 
 function App() {
 
-  const buttonText = "Count : ";
+  const buttonText = "Click Me";
   
   return (
     <>

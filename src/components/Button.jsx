@@ -4,15 +4,18 @@ export const Button = props => {
 
     const { text } = props;
 
-    const[count, setCount] = useState(0);
+    function randomNumber() {
+        return Math.floor(Math.random() * 100) + 1;
+    }
 
     function handlerButton() {
-        setCount(count + 5);
+        const getNumber = randomNumber();
+        alert(`Alert! ${getNumber}`);
     }
 
     return (
         <button onClick={ handlerButton }>
-            { text } { count }
+            { text }
         </button>
     );
 }
