@@ -1,14 +1,14 @@
 import './App.css'
 import { Button } from './components/Button'
+import { RandomComponent } from './components/RandomComponent';
 
 function App() {
-
-  const buttonText = "Click Me";
   
   return (
     <>
       <h1>LAB 07</h1>
-      <Button text={buttonText}/>
+      <h1>Number Generator</h1>
+      <RandomComponent/>
     </>
   );
 }
