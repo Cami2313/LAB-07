@@ -12,12 +12,12 @@ export const CompWithProps = () => {
         <>
             <input
                 type = "text"
-                value = {inputText}
-                onChange = {handleInputChange}
+                value = { inputText }
+                onChange = { handleInputChange }
                 placeholder = "Escribe aquí..."
             />
             <div>
-                <h2>User: {inputText}</h2>
+                <h2>User: { inputText }</h2>
             </div>
         </>
     );
