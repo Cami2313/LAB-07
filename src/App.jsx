@@ -1,15 +1,14 @@
 import './App.css'
 import { Button } from './components/Button'
-import { List } from './components/List';
-import { WrappperList } from './components/WrapperList';
 
 function App() {
+
+  const buttonText = "Count : ";
   
   return (
     <>
-      <WrappperList>
-        <List/>
-      </WrappperList>
+      <h1>LAB 07</h1>
+      <Button text={buttonText}/>
     </>
   );
 }
